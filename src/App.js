@@ -1,24 +1,20 @@
-import logo from './logo.svg';
-import './App.css';
+import Modal from "./lib";
+import approval from "./assets/approval.png";
+
+function closeModal() {
+  alert("Close button clicked");
+  // ici vous pouvez ajouter votre action personnalisée
+}
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <Modal
+      title="Successfull"
+      message="A new employee has been created to the list."
+      image={approval}
+      imageContent="Woman with a valid element"
+      closeModal={closeModal}
+    />
   );
 }
 
