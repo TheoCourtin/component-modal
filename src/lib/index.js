@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import closeBtn from "./assets/close.svg";
-import "./modal.css";
+import "modal.css";
 
 const Modal = (props) => {
   return (

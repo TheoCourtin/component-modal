@@ -4,7 +4,7 @@ React Modal Component for HRnet - HealthWealth
 
 ## Install Component
 
-`npm i test-modal-component-7`
+`npm i test-modal-component-8`
 
 ## How use it !
 
