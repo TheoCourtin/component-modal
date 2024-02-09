@@ -4,7 +4,7 @@ React Modal Component for HRnet - HealthWealth
 
 ## Install Component
 
-`npm i test-modal-component-8`
+`npm i modal-component-oc-p14`
 
 ## How use it !
 
@@ -19,7 +19,8 @@ The Modal use props :
 ### Example to use :
 
 ```
-import Modal from "./lib";
+import Modal from "modal-component-oc-p14";
+import "../../node_modules/modal-component-oc/dist/modal.css";
 import approval from "./assets/approval.png";
 
 function closeModal() {

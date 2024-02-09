@@ -1,6 +1,6 @@
 {
-  "name": "test-modal-component-8",
-  "version": "1.0.0",
+  "name": "modal-component-oc-p14",
+  "version": "1.0.5",
   "description": "A description of your React package",
   "scripts": {
     "build": "babel src/lib --out-dir dist --copy-files",
@@ -15,12 +15,12 @@
     "dist",
     "README.md"
   ],
-  "main": "./dist/test-modal-component-6-ab.umd.js",
-  "module": "./dist/test-modal-component-6-ab.es.js",
+  "main": "./dist/modal-component-oc-p14-ab.umd.js",
+  "module": "./dist/modal-component-oc-p14-ab.es.js",
   "exports": {
     ".": {
-      "import": "./dist/test-modal-component-6-ab.es.js",
-      "require": "./dist/test-modal-component-6.umd.js"
+      "import": "./dist/modal-component-oc-p14-ab.es.js",
+      "require": "./dist/modal-component-oc-p14-ab.umd.js"
     }
   },
   "author": "COURTIN Théo",
@@ -39,8 +39,8 @@
     "eslint": "^8.56.0",
     "eslint-plugin-react": "^7.33.2",
     "jsdom": "^23.2.0",
-    "save-dev": "^0.0.1-security",
-    "test-modal-component-8": "^1.0.0"
+    "save-dev": "^0.0.1-security"
+    
   },
   "devDependencies": {
     "@babel/cli": "^7.23.4",
